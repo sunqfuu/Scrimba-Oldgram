@@ -50,8 +50,6 @@
 Navigate into the directory:
 
 bash
-Kopyala
-Düzenle
 cd Scrimba-Oldagram
 Open index.html in your browser 🚀
 
