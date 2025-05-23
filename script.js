@@ -30,7 +30,7 @@ function handleComment(post) {
     if (comment) {
         const commentsContainer = post.querySelector('.comments');
         const newComment = document.createElement('p');
-        newComment.innerHTML = `<span class="username">you</span> ${comment}`;
+        newComment.innerHTML = `<span class="username">sunqfu</span> ${comment}`;
         commentsContainer.appendChild(newComment);
     }
 }
