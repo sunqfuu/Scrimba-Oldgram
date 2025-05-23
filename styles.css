@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    z-index: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+main {
+    padding: 80px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.logo, .user-avatar {
+    height: 40px;
+}
+
+.user-avatar {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    z-index: 1000; 
+}
+
+.post {
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.content-el {
+    padding: 20px;
+}
+
+.avatar-el {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.location {
+    color: #777;
+}
+
+.portrait-png {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.icons-container {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.icon {
+    width: 24px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.likes-count, .comments {
+    margin: 5px 0;
+}
+
+.bold, .username, .likes-count {
+    font-weight: bold;
+}
+
+.like-icon {
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.like-icon.liked {
+    filter: brightness(0) saturate(100%) invert(24%) sepia(100%) saturate(7466%) hue-rotate(359deg) brightness(100%) contrast(117%);
+    transform: scale(1.2);
+}
+
+.highlighted {
+    animation: highlight 0.3s ease;
+}
+
+@keyframes highlight {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.2); opacity: 0.7; }
+}

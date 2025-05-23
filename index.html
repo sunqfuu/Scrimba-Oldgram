@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://csstools.github.io/normalize.css/11.0.0/normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Oldagram</title>
+  </head>
+  <body>
+    <header>
+        <div class="header-el">
+            <img class="logo" src="images/logo.png" alt="Oldagram Logo">
+            <img class="user-avatar" src="images/user-avatar.png" alt="User avatar">
+        </div>
+    </header>
+
+    <main>
+        <section class="post" id="post-1">
+            <div class="content-el">
+                <div class="avatar-el">
+                    <img src="images/avatar-vangogh.jpg" class="avatar" alt="Avatar of Vincent Van Gogh">
+                    <div class="text-container">
+                        <p class="name bold">Vincent van Gogh</p>
+                        <p class="location">Zundert, Netherlands</p>
+                    </div>
+                </div>
+                <img src="images/post-vangogh.jpg" class="portrait-png" alt="Portrait of Vincent van Gogh">
+                <div class="icons-container">
+                    <img src="images/icon-heart.png" class="icon like-icon" alt="Like icon" data-post-id="1">
+                    <img src="images/icon-comment.png" class="icon comment-icon" alt="Comment icon">
+                    <img src="images/icon-dm.png" class="icon dm-icon" alt="Direct message icon">
+                </div>
+                <p class="likes-count" id="likes-1">21 likes</p>
+                <p class="comments"><span class="username">vincey1853</span> just took a few mushrooms lol</p>
+            </div>
+        </section>
+        
+        <section class="post" id="post-2">
+            <div class="content-el">
+                <div class="avatar-el">
+                    <img src="images/avatar-courbet.jpg" class="avatar" alt="Avatar of Gustave Courbet">
+                    <div class="text-container">
+                        <p class="name bold">Gustave Courbet</p>
+                        <p class="location">Ornans, France</p>
+                    </div>
+                </div>
+                <img src="images/post-courbet.jpg" class="portrait-png" alt="Portrait of Gustave Courbet">
+                <div class="icons-container">
+                    <img src="images/icon-heart.png" class="icon like-icon" alt="Like icon" data-post-id="2">
+                    <img src="images/icon-comment.png" class="icon comment-icon" alt="Comment icon">
+                    <img src="images/icon-dm.png" class="icon dm-icon" alt="Direct message icon">
+                </div>
+                <p class="likes-count" id="likes-2">4 likes</p>
+                <p class="comments"><span class="username">gus1819</span> I'm feeling a bit stressed tbh</p>
+            </div>
+        </section>
+        
+        <section class="post" id="post-3">
+            <div class="content-el">
+                <div class="avatar-el">
+                    <img src="images/avatar-ducreux.jpg" class="avatar" alt="Avatar of Joseph Ducreux">
+                    <div class="text-container">
+                        <p class="name bold">Joseph Ducreux</p>
+                        <p class="location">Paris, France</p>
+                    </div>
+                </div>
+                <img src="images/post-ducreux.jpg" class="portrait-png" alt="Portrait of Joseph Ducreux">
+                <div class="icons-container">
+                    <img src="images/icon-heart.png" class="icon like-icon" alt="Like icon" data-post-id="3">
+                    <img src="images/icon-comment.png" class="icon comment-icon" alt="Comment icon">
+                    <img src="images/icon-dm.png" class="icon dm-icon" alt="Direct message icon">
+                </div>
+                <p class="likes-count" id="likes-3">152 likes</p>
+                <p class="comments"><span class="username">jd1735</span> gm friends! which coin are YOU stacking up today?? post below and WAGMI!</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
