@@ -68,4 +68,4 @@ This project is part of the Scrimba Frontend Developer Career Path.
 💼 [LinkedIn or Portfolio]
 🐦 [Twitter/GitHub handle]
 
-Made with 💖 by sunqfuu
+ Made with 💖 by sunqfuu
